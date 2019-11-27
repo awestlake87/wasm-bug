@@ -9,8 +9,6 @@ mod tests {
 
     use futures::{channel::mpsc, sink::SinkExt, stream::StreamExt};
 
-    use wasm_bindgen::prelude::*;
-    use wasm_bindgen_futures::{future_to_promise, JsFuture};
     use wasm_bindgen_test::wasm_bindgen_test;
 
     // async-std does not compile for WASM yet.
